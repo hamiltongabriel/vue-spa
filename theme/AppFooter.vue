@@ -2,8 +2,8 @@
     <footer class="footer">
         <div class="container">
             <div class="content has-text-centered">
-                siga-me
-                <a href="" target="_blank">Twitter</a>
+                Siga-ME
+                <a href="https://twitter.com/Gabriel19016958" target="_blank">Twitter</a>
             </div>
         </div>
     </footer>

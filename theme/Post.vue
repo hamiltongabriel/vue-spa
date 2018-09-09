@@ -1,11 +1,11 @@
 <template>
     <div class="card">
         <div class="card-content">
-            <h3>{{ post.title }}</h3>
-            {{ post.content }}
+            <slot name="title"></slot>
+            <slot name="content"></slot>
         </div>
         <footer class="card-footer">
-            <a class="card-footer-item" :href="post.link" target="_blank">
+            <a class="card-footer-item" :href="link" target="_blank">
                 read more
             </a>
         </footer>
@@ -16,7 +16,7 @@
     export default {
         name: "Post",
         props: {
-            post:{
+            link:{
                required:  true
             }
         }
