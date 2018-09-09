@@ -3,7 +3,7 @@
         <app-header></app-header>
         <section class="main-section section">
             <div class="container content">
-                <category></category>
+                <router-view></router-view>
             </div>
         </section>
        <app-footer></app-footer>
@@ -12,19 +12,17 @@
 <script>
     import AppHeader from './AppHeader'
     import AppFooter from './AppFooter'
-    import Category from './Category'
     export default {
         components: {
           'app-header': AppHeader,
-          'app-footer': AppFooter,
-          'category': Category
+          'app-footer': AppFooter
         }
     }
 </script>
 <style lang="scss">
     // definir cor padrao azul no site.
     $primary: #287ab1;
-    @import "~bulma";
+    @import "../../node_modules/bulma";
 
     .columns{
         flex-wrap: wrap;
