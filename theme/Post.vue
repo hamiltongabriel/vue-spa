@@ -24,5 +24,15 @@
 </script>
 
 <style scoped>
-
+    // definindo tamanho dos cards
+    .card{
+        padding-bottom: 40px;
+        height: 100%;
+    }
+    /*definindo a posição do roda pé.*/
+    footer{
+        bottom: 0;
+        width: 100%;
+        left: 0;
+    }
 </style>
