@@ -40,7 +40,8 @@
         },
         created () {
             this.id = this.$route.params.id,
-            this.loadPosts()
+            this.loadPosts();
+            console.log(this.$route.query.page);
         },
         watch:{
             '$route' (to, from){

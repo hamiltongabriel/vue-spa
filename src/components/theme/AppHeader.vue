@@ -6,8 +6,8 @@
             </router-link>
             <div id="navbarExampleTransparentExample" class="navbar-menu">
                 <div class="navbar-start">
-                    <router-link class="navbar-item" to="/category/desktop" exact>Inicio Desktop</router-link>
-                    <router-link class="navbar-item" to="/category/mobile" exact>Início Mobile</router-link>
+                    <router-link class="navbar-item" to="/category/desktop" >Inicio Desktop</router-link>
+                    <router-link class="navbar-item" :to="{ name: 'category', params: { id: 'mobile'}}" >Início Mobile</router-link>
                     <router-link class="navbar-item" to="/login">Login</router-link>
                 </div>
                 </div>
