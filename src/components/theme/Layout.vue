@@ -22,7 +22,7 @@
 <style lang="scss">
     // definir cor padrao azul no site.
     $primary: #287ab1;
-    @import "../../node_modules/bulma";
+    @import "../../../node_modules/bulma";
 
     .columns{
         flex-wrap: wrap;

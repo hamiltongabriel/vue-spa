@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Layout from './theme/Layout'
+import Layout from './components/theme/Layout'
 export default {
   name: 'app',
   components: {
