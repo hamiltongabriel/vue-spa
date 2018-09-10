@@ -1,7 +1,7 @@
 <template>
     <nav class="nav has-shadow">
         <div class="container">
-            <router-link to="/category/front-end" exact>
+            <router-link to="/category/desktop" exact>
                 <img src="http://bit.ly/vue-img" alt="Vue SPA">
             </router-link>
             <div id="navbarExampleTransparentExample" class="navbar-menu">
